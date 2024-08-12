@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-poppins);
+}
+
+.chakra {
+  font-family: var(--font-chakra_petch);
+}
+
+img {
+  -webkit-user-drag: none;
+  pointer-events: none;
+  /* Disable right-clicking */
+  /* user-drag: none; */
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Made with 💙 by Stephen Adeniji
+https://stephen-adeniji.vercel.app/ */

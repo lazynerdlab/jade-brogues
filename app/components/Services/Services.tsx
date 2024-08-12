@@ -8,7 +8,6 @@ const Services = () => {
     <BaseLayout>
       <Hero />
       <Expertise />
-      <Awards />
       <Clients />
       <ContactCTA />
     </BaseLayout>
